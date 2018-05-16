@@ -6,7 +6,7 @@ function genQuote() {
   tweetQuote = "https://twitter.com/intent/tweet?text="+ "%23myEarth " + "Today i am "+ selected_Quote + " %23trendzingo www.trendzingo.com"
   $('.twitter-share-button').attr('href', tweetQuote);
   $('.twitter-share-button').attr('href', tweetQuote);
-  var fb_share_link = "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F" + randNum.toString() + "html"+ "&amp;src=sdkpreparse"
+  var fb_share_link = "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftrendzingo.com"
   $('.fb-share-button').attr('href', fb_share_link)}
 
 //quote array
