@@ -124,7 +124,7 @@ if os.getenv('SERVER_SOFTWARE', '').startswith('Google App Engine'):
             'HOST': '/cloudsql/trendzingo-204211:asia-southeast1:myearth-sql',
             'NAME': 'trendzingo_db',
             'USER': 'amit2rockon',
-            'PASSWORD': 'trendzingo-sql',
+            'PASSWORD': 'password has been changed, it is not as it was',
         }
     }
 else:
